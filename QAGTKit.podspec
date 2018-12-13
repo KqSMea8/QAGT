@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QAGTKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "性能监测."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/QAGTKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhen7216/QAGT", :tag => "{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -117,10 +117,10 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  #s.frameworks = "libz.dylib", "libsqlite3.dylib", "Security.framework", "AdSupport.framework", "AudioToolbox.framework", "SystemConfiguration.framework", "QuartzCore.framework", "CoreGraphics.framework", "UIKit.framework"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  # s.libraries = "libz.dylib", "libsqlite3.dylib", "Security.framework", "AdSupport.framework", "AudioToolbox.framework", "SystemConfiguration.framework", "QuartzCore.framework", "CoreGraphics.framework", "UIKit.framework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
